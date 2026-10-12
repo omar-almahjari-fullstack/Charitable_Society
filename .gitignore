@@ -36,6 +36,19 @@ migrate_working_dir/
 /build/
 /coverage/
 
+# Database scripts and local database files
+*.sql
+*.dump
+*.backup
+*.bak
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sql.gz
+*.sql.zip
+/supabase/
+
 # Symbolication related
 app.*.symbols
 
